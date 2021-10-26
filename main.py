@@ -33,7 +33,7 @@ def main():
     while(True):
         idx = random.randrange(0, n_movies)
         
-        print(f'{titles[idx]} {years[idx]}, Rating: {ratings[idx]:.1f}, Starring: {actors_list[idx]}')
+        print(f'{titles[idx]} \n{years[idx]},\n\n Rating: {ratings[idx]:.1f},\n Starring: {actors_list[idx]}\n')
 
         user_input = input('Do you want another movie (y/[n])? ')
         if user_input != 'y':
